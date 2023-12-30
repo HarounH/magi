@@ -1,0 +1,1 @@
+ffmpeg -framerate 30 -i frames/frame_%04d.png -r 30 -pix_fmt yuv420p output.mp4
